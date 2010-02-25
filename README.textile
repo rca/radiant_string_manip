@@ -1,3 +1,12 @@
-= String Manip
+h1. StringManip
 
-Description goes here
+StringManip is a Radiant extension that adds two tags to the CMS.
+
+h2. strip
+
+This tag removes whitespace from the beginning and end of the string provided.
+
+h2. replace
+
+This tag replaces the given string <code>what</code> with the given string
+<code>with</code>.
