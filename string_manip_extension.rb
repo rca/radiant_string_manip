@@ -4,7 +4,7 @@
 class StringManipExtension < Radiant::Extension
   version "0.1"
   description "String manipulation tags"
-  url "http://github.com/rca/string_manip"
+  url "http://github.com/rca/radiant_string_manip"
 
   # define_routes do |map|
   #   map.namespace :admin, :member => { :remove => :get } do |admin|
