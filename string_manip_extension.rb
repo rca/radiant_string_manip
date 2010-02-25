@@ -14,7 +14,7 @@ class StringManipExtension < Radiant::Extension
 
   def activate
     # admin.tabs.add "String Manip", "/admin/string_manip", :after => "Layouts", :visibility => [:all]
-    Page.send :include, CustomTags
+    Page.send :include, StringManip
   end
 
   def deactivate

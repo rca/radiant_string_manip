@@ -1,4 +1,4 @@
-module CustomTags
+module StringManip
   include Radiant::Taggable
 
   desc "Replace whitespace at ends of string"
